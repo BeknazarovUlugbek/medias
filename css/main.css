@@ -1,12 +1,11 @@
 body{
     width: 100%;
-    height: 100%;
     padding: 0;
     box-sizing: border-box;
 }
 .wrapper{
-    width: 80%;
-    height: 600px;
+    width: 100%;
+    height: 800px;
     margin: 0.5rem auto;
     display: flex;
     flex-wrap: wrap;
@@ -16,9 +15,9 @@ body{
     box-sizing: border-box;
 }
 .box{
-    width: 30%;
-    height: 200px;
-    margin-top: 1.5rem ;
+    width: 26%;
+    height: 250px;
+    margin-top: 1rem ;
     border-radius: 50px;
     transition: 1s 0s all linear;
     box-sizing: border-box;

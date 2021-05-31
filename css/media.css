@@ -1,10 +1,8 @@
-@media (min-device-width: 0px) and (max-device-width:449px ){
-   .wrapper{
-       height: 100%;
-   }
-    .box{
-        width: 40%;
-        height: 200px;
+@media (min-device-width:0px) and (max-device-width:449px) {
+    .wrapper{
+       height: 1500px;
     }
-
+    .box{
+        width: 38%;
+    }
 }
