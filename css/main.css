@@ -1,0 +1,62 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 80%;
+    height: 600px;
+    margin: 0.5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.box{
+    width: 30%;
+    height: 200px;
+    margin-top: 1.5rem ;
+    border-radius: 50px;
+    transition: 1s 0s all linear;
+    box-sizing: border-box;
+    border: 1px solid ;
+}
+.box-1 {
+    background-image: linear-gradient(90deg,yellow,antiquewhite,white);
+}
+.box-2{
+    background-image: linear-gradient(90deg,indigo,antiquewhite,white);
+}
+.box-3{
+    background-image: linear-gradient(90deg,red,antiquewhite,white);
+}
+.box-4{
+    background-image: linear-gradient(90deg,blue,antiquewhite,white);
+}
+.box-5{
+    background-image: linear-gradient(90deg,brown,antiquewhite,white);
+}
+.box-6{
+    background-image: linear-gradient(90deg,aqua,antiquewhite,white);
+}
+.box-1:hover{
+    background-image: linear-gradient(270deg,yellow,antiquewhite,white);
+}
+.box-2:hover{
+    background-image: linear-gradient(270deg,indigo,antiquewhite,white);
+}
+.box-3:hover{
+    background-image: linear-gradient(270deg,red,antiquewhite,white);
+}
+.box-4:hover{
+    background-image: linear-gradient(270deg,blue,antiquewhite,white);
+}
+.box-5:hover{
+    background-image: linear-gradient(270deg,brown,antiquewhite,white);
+}
+.box-6:hover{
+    background-image: linear-gradient(270deg,aqua,antiquewhite,white);
+}
